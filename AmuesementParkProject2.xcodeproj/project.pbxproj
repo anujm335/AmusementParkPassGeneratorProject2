@@ -12,6 +12,10 @@
 		86461FB81F388C54000838D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86461FB61F388C54000838D0 /* Main.storyboard */; };
 		86461FBA1F388C54000838D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86461FB91F388C54000838D0 /* Assets.xcassets */; };
 		86461FBD1F388C54000838D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86461FBB1F388C54000838D0 /* LaunchScreen.storyboard */; };
+		86461FC61F388E54000838D0 /* AccessDenied.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86461FC41F388E54000838D0 /* AccessDenied.wav */; };
+		86461FC71F388E54000838D0 /* AccessGranted.wav in Resources */ = {isa = PBXBuildFile; fileRef = 86461FC51F388E54000838D0 /* AccessGranted.wav */; };
+		86461FCD1F388F87000838D0 /* AmuesementPark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461FCC1F388F87000838D0 /* AmuesementPark.swift */; };
+		86461FCF1F388FB3000838D0 /* EntrantModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86461FCE1F388FB3000838D0 /* EntrantModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		86461FB91F388C54000838D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86461FBC1F388C54000838D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		86461FBE1F388C54000838D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86461FC41F388E54000838D0 /* AccessDenied.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessDenied.wav; sourceTree = "<group>"; };
+		86461FC51F388E54000838D0 /* AccessGranted.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = AccessGranted.wav; sourceTree = "<group>"; };
+		86461FCC1F388F87000838D0 /* AmuesementPark.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmuesementPark.swift; path = ../AmuesementPark.swift; sourceTree = "<group>"; };
+		86461FCE1F388FB3000838D0 /* EntrantModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntrantModel.swift; path = ../EntrantModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +64,13 @@
 			children = (
 				86461FB21F388C54000838D0 /* AppDelegate.swift */,
 				86461FB41F388C54000838D0 /* ViewController.swift */,
+				86461FCC1F388F87000838D0 /* AmuesementPark.swift */,
+				86461FCE1F388FB3000838D0 /* EntrantModel.swift */,
 				86461FB61F388C54000838D0 /* Main.storyboard */,
 				86461FB91F388C54000838D0 /* Assets.xcassets */,
 				86461FBB1F388C54000838D0 /* LaunchScreen.storyboard */,
+				86461FC41F388E54000838D0 /* AccessDenied.wav */,
+				86461FC51F388E54000838D0 /* AccessGranted.wav */,
 				86461FBE1F388C54000838D0 /* Info.plist */,
 			);
 			path = AmuesementParkProject2;
@@ -125,8 +137,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				86461FBD1F388C54000838D0 /* LaunchScreen.storyboard in Resources */,
+				86461FC71F388E54000838D0 /* AccessGranted.wav in Resources */,
 				86461FBA1F388C54000838D0 /* Assets.xcassets in Resources */,
 				86461FB81F388C54000838D0 /* Main.storyboard in Resources */,
+				86461FC61F388E54000838D0 /* AccessDenied.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				86461FB51F388C54000838D0 /* ViewController.swift in Sources */,
+				86461FCD1F388F87000838D0 /* AmuesementPark.swift in Sources */,
+				86461FCF1F388FB3000838D0 /* EntrantModel.swift in Sources */,
 				86461FB31F388C54000838D0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
